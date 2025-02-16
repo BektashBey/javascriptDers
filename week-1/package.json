@@ -1,0 +1,16 @@
+{
+  "name": "week-1",
+  "version": "1.0.0",
+  "description": "ın-class example for week-2",
+  "main": "index.js",
+  "scripts": {
+    "start": "node proje1.js",
+    "watch": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ozan Gunduz <ozan35633@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.9"
+  }
+}

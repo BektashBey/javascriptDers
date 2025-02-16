@@ -1,0 +1,32 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title homepage 
+        style.
+            body {font-family: "Gill Sans Extrabold", sans-serif} ;
+    body 
+        h1 welcome to my page 
+        p the place to show you how to help
+
+        h2 passengers 
+        p There are #{data.length} passengers waiting.
+
+        ol 
+            li  #{data[0].name} 
+
+        #{data[0].name}
+         
+        ul 
+            each item in data
+                li= item.name 
+                li= item.age
+                li= item.id
+
+        //- ol 
+        //-     each item in data 
+        //-         li 
+        //-             a(href=`/users/${item.id}`)  
+        //-             #item.name 
+
